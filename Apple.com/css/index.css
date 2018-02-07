@@ -1,0 +1,238 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    min-width: 320px;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99999999999999999999999999;
+}
+.baner {
+    position: fixed;
+    top: 70px;
+    left: 20px;
+    z-index: 999999999999999999999999;
+}
+.baner a {
+    padding: 20px;
+}
+/*------NAV-BAR-----*/
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto 35px 35px auto auto;
+    background: rgba(0, 0, 0, 0.76);
+    padding: 15px;
+}
+.grid-item {
+    text-align: center;
+}
+.grid-item a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+.grid-item a:hover {
+    color: #86898d;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.9);
+}
+.grid-item a:active {
+    text-shadow: 0 0;
+}
+.modal-content {
+    min-width: 200px;
+}
+.nav-link {
+    background: rgba(192, 192, 192, 0.16);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.nav-link:hover {
+    color: aqua;
+    font-weight: 700;
+}
+.form-inline {
+    width: 350px;
+}
+.form-inline>.form-control {
+    width: 150px;
+    margin: 0 10px 0 0;  
+}
+.form-inline button {
+    border: none;
+    font-weight: 500;
+    padding: 5px;
+}
+.modal-content {
+    min-width: 300px;
+}
+
+@media (max-width: 600px) {
+        .grid-item-menu {
+            display: none;
+        }
+        .grid {
+            grid-template-columns: 100% ;
+            text-align: center;
+        }
+        .grid-item {
+            padding: 5px 0 5px 0;
+            display: none;
+        }
+        .grid-item a {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .grid-item-logo {
+            display: inline-block;
+            width: 30%;
+            margin: 0 auto;
+        }
+        .grid-item-logo a {
+            font-size: 30px;
+        }
+         header {
+            position: static;
+            width: 100%;
+            z-index: 0;
+        }
+}
+/*--------sections-------*/
+.grid_home_pod {
+    display: grid;
+    width: 100%;
+}
+h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin: 50px 0 5px 0;
+    font-weight: bolder;
+    color: rgb(26, 26, 26)
+}
+h3 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: rgba(39, 37, 37, 0.91);
+    margin: 0;
+}
+.grid_home_pod a {
+    text-align: center;
+}
+.grid_home_pod img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.grid-item-iphone-x h3{
+    background: #f2f2f2;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.grid-item-iphone-x h2{
+    background: #f2f2f2;
+    margin: 0;
+    padding-top: 10px;
+}
+.grid-item-iphone-x {
+    margin-bottom: 5px;
+}
+.iphone-x-up img {
+    display: none;
+}
+@media (max-width: 550px){
+        h2 {
+            font-size: 1.4rem;
+            margin-top: 10px;
+        }
+        h3 {
+            font-size: 0.7rem
+        }
+       .iphone-x-down img{
+           display: none;
+       }
+       .iphone-x-up img {
+           display: block;
+       } 
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.grid-section{
+    margin: 5px 10px 5px 10px;
+    padding: 0;
+}
+.grid-section:nth-child(odd){
+    margin-right: 0;
+}
+span .carousel-control-next-icon {
+    color: red;
+}
+span .carousel-control-next {
+    color: red;
+}
+.carousel-inner img {
+  height: 190px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 100% ;
+        }
+        .grid-section {
+            margin: 1px 1px 1px 1px;
+            padding: 0;
+        }
+
+}
+@media (max-width: 700px) {
+    #carouselExampleControls {
+        display: none;
+    }
+}
+
+footer {
+    margin-top: 70px;
+}
+footer p {
+    width: 100%;
+    color: #5f8c8b;
+}
+.page-footer {
+    background: rgba(235, 234, 234, 0.74);
+}
+.page-footer>.copyright {
+    text-align: center;
+    background: #d0d0d0;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.modal-content {
+    margin-top: 70px;
+    background: rgba(75, 72, 72, 0.76);
+    border: 3px solid #1c1b1b;
+    color: white;
+    padding: 15px 30px 20px 30px;
+}
+input {
+    outline: none;
+}
+
+
+
+
+
+
+
+

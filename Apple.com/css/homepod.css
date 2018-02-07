@@ -1,0 +1,85 @@
+p {
+    font-size: 1.1rem;
+    font-style: oblique;
+    color: grey;
+    width: 70%;
+    margin: 0 auto;
+}
+.container img {
+    width: 80%;
+    text-align: center;
+}
+.home_two img {
+    width: 100%;
+}
+@media (max-width: 700px) {
+    .fixed-bg {
+    background-image: url(../img/homepod/home-pod-two.png);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+}
+footer {
+    margin-top: 70px;
+}
+footer p {
+    width: 100%;
+    color: #5f8c8b;
+}
+main {
+    background-image: url(../img/homepod/homepod-media.jpg);
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main button {
+    width: 100%;
+    margin-top: 170px;
+}
+.col-12 {
+    text-align: center;
+}
+img {
+    margin: 50px 0 50px;
+}
+.main {
+    padding: 0 30px 0;
+    border-right: 10px double #a6e0de;
+    margin-bottom: 30px;
+    color: grey;
+    font-size: 1.1rem;
+}
+.main:last-child {
+    border: none;
+}
+.main h3{
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main p{
+    line-height: 1.7;
+    
+}
+@media (max-width: 992px) {
+    .main{
+        border: none;
+    }
+}
+@media (max-width: 600px) {
+    p {
+        width: 100%;
+        font-size: 0.7rem;
+    }
+    .main{
+        font-size: 0.7rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+}

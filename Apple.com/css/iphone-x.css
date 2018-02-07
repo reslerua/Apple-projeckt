@@ -1,0 +1,13 @@
+.fixed-bg {
+    background-image: url(../img/iphone-x/iphone-x.gif);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+article {
+    text-align: center;
+}

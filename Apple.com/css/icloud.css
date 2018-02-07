@@ -1,0 +1,29 @@
+
+form {
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+form h1 {
+    color: #fff;
+    margin: 0 0 15px 0;
+}
+input {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    text-decoration: none;
+}
+input {
+    outline: none;
+}
+#submit-icloud {
+    border-radius: 10px;
+    width: 100px;
+    margin: 0;
+}
+#submit-icloud:hover {
+    background: rgba(188, 185, 185, 0.98);
+}
