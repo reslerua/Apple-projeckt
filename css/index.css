@@ -7,21 +7,13 @@ body {
 header {
     position: fixed;
     width: 100%;
-    z-index: 99999999999999999999999999;
-}
-.baner {
-    position: fixed;
-    top: 70px;
-    left: 20px;
-    z-index: 999999999999999999999999;
-}
-.baner a {
-    padding: 20px;
+    z-index: 9999999;
+    padding-left: 0;
 }
 /*------NAV-BAR-----*/
 .grid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto 35px 35px auto auto;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto 35px 35px auto;
     background: rgba(0, 0, 0, 0.76);
     padding: 15px;
 }
@@ -45,16 +37,6 @@ header {
 }
 .modal-content {
     min-width: 200px;
-}
-.nav-link {
-    background: rgba(192, 192, 192, 0.16);
-    color: #fff;
-    text-align: center;
-    margin-bottom: 3px;
-}
-.nav-link:hover {
-    color: aqua;
-    font-weight: 700;
 }
 .form-inline {
     width: 350px;

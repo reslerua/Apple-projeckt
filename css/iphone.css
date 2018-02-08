@@ -1,0 +1,36 @@
+img {
+    width: 80%;
+}
+.row {
+    margin: 50px 0;
+}
+@media (max-width: 700px) {
+    .row {
+        margin: 0;
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+p {
+    font-style: italic;
+    font-weight: bold;
+    color: #134089;
+    text-align: center;
+    text-decoration: blink;
+}
+.row h2 {
+    margin-top: 80px;
+}
+.row a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: large;
+}
+.fixed-bg img{
+    width: 100%;
+}
+.s-jobs {
+    width: 30%;
+    margin: 0 auto;
+}
